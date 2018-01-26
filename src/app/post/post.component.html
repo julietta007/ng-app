@@ -1,0 +1,25 @@
+<h1>BLOG</h1>
+                <h2>BLAH</h2>
+                                <h3>GLOB</h3>
+
+<hr/>
+
+<hr/>
+
+<p>Is it possible to condense the
+<br>wisdom of centuries in a straightforward way?
+<br>Can the brilliant knowledge millions of people
+<br>used to live their lives by be summarized in a
+<br>reader-friendly and manageable way?
+<br>Let’s try with this collection of the
+<br>most inspiring words to live by.
+</p>
+<hr/>
+
+<hr/>
+
+<ul *ngIf="posts">
+  <li *ngFor="let post of posts">
+    <a [routerLink]="['/posts/view/', post._id]">{{title}}</a>
+  </li>
+</ul>
