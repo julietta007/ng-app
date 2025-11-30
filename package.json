@@ -16,7 +16,7 @@
   "dependencies": {
     "@angular-devkit/core": "0.5.11",
     "@angular/animations": "^5.1.0",
-    "@angular/common": "^5.1.0",
+    "@angular/common": "^19.2.16",
     "@angular/compiler": "^5.1.0",
     "@angular/core": "^5.1.0",
     "@angular/forms": "^5.1.0",
